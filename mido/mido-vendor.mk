@@ -63,7 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/xiaomi/mido/proprietary/lib64/libfpnav.so:system/lib64/libfpnav.so \
     vendor/xiaomi/mido/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
-    vendor/xiaomi/mido/proprietary/vendor/bin/wcnss_service:system/vendor/bin/wcnss_service \
     vendor/xiaomi/mido/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
     vendor/xiaomi/mido/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb \
     vendor/xiaomi/mido/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb \
