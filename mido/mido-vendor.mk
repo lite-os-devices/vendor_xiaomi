@@ -691,6 +691,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/xiaomi/mido/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/xiaomi/mido/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
+    vendor/xiaomi/mido/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
     vendor/xiaomi/mido/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/xiaomi/mido/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/xiaomi/mido/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
@@ -890,6 +891,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib/vendor.qti.gnss@1.0_vendor.so \
+    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so \
@@ -1063,6 +1065,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so \
+    vendor/xiaomi/mido/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so \
