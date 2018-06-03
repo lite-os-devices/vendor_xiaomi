@@ -189,6 +189,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/etc/perf/perf-profile4.conf:system/vendor/etc/perf/perf-profile4.conf \
     vendor/xiaomi/mido/proprietary/vendor/etc/perf/perf-profile5.conf:system/vendor/etc/perf/perf-profile5.conf \
     vendor/xiaomi/mido/proprietary/vendor/etc/perf/perf-profile6.conf:system/vendor/etc/perf/perf-profile6.conf \
+    vendor/xiaomi/mido/proprietary/vendor/etc/qdcm_calib_data_ili9885_boe_fhd_video_mode_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_ili9885_boe_fhd_video_mode_dsi_panel.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/qdcm_calib_data_nt35532_fhd_video_mode_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_nt35532_fhd_video_mode_dsi_panel.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/qdcm_calib_data_nt35596_tianma_fhd_video_mode_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_nt35596_tianma_fhd_video_mode_dsi_panel.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/qdcm_calib_data_otm1911_fhd_video_mode_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_otm1911_fhd_video_mode_dsi_panel.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/qdcm_calib_data_r63350_ebbg_fhd_video_mode_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_r63350_ebbg_fhd_video_mode_dsi_panel.xml \
     vendor/xiaomi/mido/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/xiaomi/mido/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/xiaomi/mido/proprietary/vendor/etc/thermal-engine.conf:system/vendor/etc/thermal-engine.conf \
@@ -1124,10 +1129,5 @@ PRODUCT_PACKAGES += \
     libts_face_beautify_hal \
     qcrilhook \
     qcrilmsgtunnel \
-    qdcm_calib_data_ili9885_boe_fhd_video_mode_dsi_panel \
-    qdcm_calib_data_nt35532_fhd_video_mode_dsi_panel \
-    qdcm_calib_data_nt35596_tianma_fhd_video_mode_dsi_panel \
-    qdcm_calib_data_otm1911_fhd_video_mode_dsi_panel \
-    qdcm_calib_data_r63350_ebbg_fhd_video_mode_dsi_panel \
     qti-telephony-common \
     vendor.qti.hardware.fm@1.0
