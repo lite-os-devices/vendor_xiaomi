@@ -63,7 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/lib/libqct_resampler.so:system/lib/libqct_resampler.so \
     vendor/xiaomi/mido/proprietary/lib/libqdMetaData.system.so:system/lib/libqdMetaData.system.so \
     vendor/xiaomi/mido/proprietary/lib/librcc.so:system/lib/librcc.so \
-    vendor/xiaomi/mido/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
     vendor/xiaomi/mido/proprietary/lib/vendor.display.postproc@1.0.so:system/vendor.display.postproc@1.0.so \
     vendor/xiaomi/mido/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
     vendor/xiaomi/mido/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
@@ -90,7 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/lib64/libqdMetaData.system.so:system/lib64/libqdMetaData.system.so \
     vendor/xiaomi/mido/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/xiaomi/mido/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
-    vendor/xiaomi/mido/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/xiaomi/mido/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/xiaomi/mido/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
     vendor/xiaomi/mido/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
@@ -1132,4 +1130,5 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     qcrilmsgtunnel \
     qti-telephony-common \
+    vendor.display.color@1.0 \
     vendor.qti.hardware.fm@1.0
