@@ -61,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/xiaomi/mido/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/xiaomi/mido/proprietary/lib/libqct_resampler.so:system/lib/libqct_resampler.so \
-    vendor/xiaomi/mido/proprietary/lib/libqdMetaData.system.so:system/lib/libqdMetaData.system.so \
     vendor/xiaomi/mido/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/xiaomi/mido/proprietary/lib/vendor.display.postproc@1.0.so:system/vendor.display.postproc@1.0.so \
     vendor/xiaomi/mido/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
@@ -86,7 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/xiaomi/mido/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/xiaomi/mido/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
-    vendor/xiaomi/mido/proprietary/lib64/libqdMetaData.system.so:system/lib64/libqdMetaData.system.so \
     vendor/xiaomi/mido/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/xiaomi/mido/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/xiaomi/mido/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
