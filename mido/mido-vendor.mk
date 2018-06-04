@@ -1111,6 +1111,7 @@ PRODUCT_PACKAGES += \
     QtiTelephonyServicelibrary \
     SimSettings \
     TimeService \
+    com.qualcomm.location \
     com.quicinc.cne \
     com.quicinc.cne.api-V1.0-java \
     com.quicinc.cne.api@1.0 \
