@@ -16,27 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/bin/gx_fpd:system/bin/gx_fpd \
-    vendor/xiaomi/mido/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/xiaomi/mido/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
-    vendor/xiaomi/mido/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
-    vendor/xiaomi/mido/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
-    vendor/xiaomi/mido/proprietary/etc/camera/imx258_bear_chromatix.xml:system/etc/camera/imx258_bear_chromatix.xml \
-    vendor/xiaomi/mido/proprietary/etc/camera/imx258_chromatix.xml:system/etc/camera/imx258_chromatix.xml \
-    vendor/xiaomi/mido/proprietary/etc/camera/imx258_mono_bear_chromatix.xml:system/etc/camera/imx258_mono_bear_chromatix.xml \
-    vendor/xiaomi/mido/proprietary/etc/camera/imx258_mono_chromatix.xml:system/etc/camera/imx258_mono_chromatix.xml \
-    vendor/xiaomi/mido/proprietary/etc/camera/imx258_ofilm_chromatix.xml:system/etc/camera/imx258_ofilm_chromatix.xml \
-    vendor/xiaomi/mido/proprietary/etc/camera/imx258_qtech_chromatix.xml:system/etc/camera/imx258_qtech_chromatix.xml \
-    vendor/xiaomi/mido/proprietary/etc/camera/imx258_sunny_chromatix.xml:system/etc/camera/imx258_sunny_chromatix.xml \
-    vendor/xiaomi/mido/proprietary/etc/camera/ov13855_qtech_chromatix.xml:system/etc/camera/ov13855_qtech_chromatix.xml \
-    vendor/xiaomi/mido/proprietary/etc/camera/s5k3l8_chromatix.xml:system/etc/camera/s5k3l8_chromatix.xml \
-    vendor/xiaomi/mido/proprietary/etc/camera/s5k3l8_f3l8yam_chromatix.xml:system/etc/camera/s5k3l8_f3l8yam_chromatix.xml \
-    vendor/xiaomi/mido/proprietary/etc/camera/s5k3l8_mono_chromatix.xml:system/etc/camera/s5k3l8_mono_chromatix.xml \
-    vendor/xiaomi/mido/proprietary/etc/camera/s5k3l8_ofilm_chromatix.xml:system/etc/camera/s5k3l8_ofilm_chromatix.xml \
-    vendor/xiaomi/mido/proprietary/etc/camera/s5k3l8_qtech_chromatix.xml:system/etc/camera/s5k3l8_qtech_chromatix.xml \
-    vendor/xiaomi/mido/proprietary/etc/camera/s5k3l8_sunny_chromatix.xml:system/etc/camera/s5k3l8_sunny_chromatix.xml \
-    vendor/xiaomi/mido/proprietary/etc/camera/s5k5e8_ofilm_chromatix.xml:system/etc/camera/s5k5e8_ofilm_chromatix.xml \
-    vendor/xiaomi/mido/proprietary/etc/camera/s5k5e8_qtech_chromatix.xml:system/etc/camera/s5k5e8_qtech_chromatix.xml \
-    vendor/xiaomi/mido/proprietary/etc/camera/s5k5e8_sunny_chromatix.xml:system/etc/camera/s5k5e8_sunny_chromatix.xml \
     vendor/xiaomi/mido/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/xiaomi/mido/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/xiaomi/mido/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
@@ -115,6 +94,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/xiaomi/mido/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
     vendor/xiaomi/mido/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
+    vendor/xiaomi/mido/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/xiaomi/mido/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/xiaomi/mido/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/xiaomi/mido/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
@@ -138,6 +118,26 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/xiaomi/mido/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/xiaomi/mido/proprietary/vendor/etc/cacert_location.pem:system/vendor/etc/cacert_location.pem \
+    vendor/xiaomi/mido/proprietary/vendor/etc/camera/camera_config.xml:system/vendor/etc/camera/camera_config.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/camera/csidtg_camera.xml:system/vendor/etc/camera/csidtg_camera.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/camera/csidtg_chromatix.xml:system/vendor/etc/camera/csidtg_chromatix.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/camera/imx258_bear_chromatix.xml:system/vendor/etc/camera/imx258_bear_chromatix.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/camera/imx258_chromatix.xml:system/vendor/etc/camera/imx258_chromatix.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/camera/imx258_mono_bear_chromatix.xml:system/vendor/etc/camera/imx258_mono_bear_chromatix.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/camera/imx258_mono_chromatix.xml:system/vendor/etc/camera/imx258_mono_chromatix.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/camera/imx258_ofilm_chromatix.xml:system/vendor/etc/camera/imx258_ofilm_chromatix.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/camera/imx258_qtech_chromatix.xml:system/vendor/etc/camera/imx258_qtech_chromatix.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/camera/imx258_sunny_chromatix.xml:system/vendor/etc/camera/imx258_sunny_chromatix.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/camera/ov13855_qtech_chromatix.xml:system/vendor/etc/camera/ov13855_qtech_chromatix.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/camera/s5k3l8_chromatix.xml:system/vendor/etc/camera/s5k3l8_chromatix.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/camera/s5k3l8_f3l8yam_chromatix.xml:system/vendor/etc/camera/s5k3l8_f3l8yam_chromatix.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/camera/s5k3l8_mono_chromatix.xml:system/vendor/etc/camera/s5k3l8_mono_chromatix.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/camera/s5k3l8_ofilm_chromatix.xml:system/vendor/etc/camera/s5k3l8_ofilm_chromatix.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/camera/s5k3l8_qtech_chromatix.xml:system/vendor/etc/camera/s5k3l8_qtech_chromatix.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/camera/s5k3l8_sunny_chromatix.xml:system/vendor/etc/camera/s5k3l8_sunny_chromatix.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/camera/s5k5e8_ofilm_chromatix.xml:system/vendor/etc/camera/s5k5e8_ofilm_chromatix.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/camera/s5k5e8_qtech_chromatix.xml:system/vendor/etc/camera/s5k5e8_qtech_chromatix.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/camera/s5k5e8_sunny_chromatix.xml:system/vendor/etc/camera/s5k5e8_sunny_chromatix.xml \
     vendor/xiaomi/mido/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/xiaomi/mido/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/xiaomi/mido/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml \
