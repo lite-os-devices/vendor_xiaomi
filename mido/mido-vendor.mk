@@ -1138,4 +1138,5 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     qti-telephony-common \
     vendor.display.color@1.0 \
-    vendor.qti.hardware.fm@1.0
+    vendor.qti.hardware.fm@1.0 \
+    vendor.qti.hardware.iop@1.0
