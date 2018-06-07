@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/xiaomi/mido/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/xiaomi/mido/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
-    vendor/xiaomi/mido/proprietary/lib/android.hidl.manager@1.0.so:system/lib/android.hidl.manager@1.0.so \
     vendor/xiaomi/mido/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/mido/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/xiaomi/mido/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
@@ -45,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/xiaomi/mido/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/xiaomi/mido/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
-    vendor/xiaomi/mido/proprietary/lib64/android.hidl.manager@1.0.so:system/lib64/android.hidl.manager@1.0.so \
     vendor/xiaomi/mido/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/mido/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/xiaomi/mido/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
