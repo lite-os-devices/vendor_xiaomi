@@ -946,6 +946,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
+    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.voiceprint@1.0.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
@@ -967,6 +968,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8953.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/hw/gxfingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gxfingerprint.default.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/hw/keystore.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8953.so \
+    vendor/xiaomi/mido/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.msm8953.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so \
@@ -1151,6 +1153,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
+    vendor/xiaomi/mido/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/xiaomi/mido/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
