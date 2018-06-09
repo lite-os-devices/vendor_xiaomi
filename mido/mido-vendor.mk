@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/xiaomi/mido/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/xiaomi/mido/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
-    vendor/xiaomi/mido/proprietary/lib/libqct_resampler.so:system/lib/libqct_resampler.so \
     vendor/xiaomi/mido/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/xiaomi/mido/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/xiaomi/mido/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
@@ -157,9 +156,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/xiaomi/mido/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/xiaomi/mido/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
-    vendor/xiaomi/mido/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
-    vendor/xiaomi/mido/proprietary/vendor/etc/drc/drc_cfg_5.1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/drc/drc_cfg_5.1.txt \
-    vendor/xiaomi/mido/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:$(TARGET_COPY_OUT_VENDOR)/etc/drc/drc_cfg_AZ.txt \
     vendor/xiaomi/mido/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/xiaomi/mido/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/xiaomi/mido/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
@@ -176,8 +172,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/etc/qdcm_calib_data_nt35596_tianma_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt35596_tianma_fhd_video_mode_dsi_panel.xml \
     vendor/xiaomi/mido/proprietary/vendor/etc/qdcm_calib_data_otm1911_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_otm1911_fhd_video_mode_dsi_panel.xml \
     vendor/xiaomi/mido/proprietary/vendor/etc/qdcm_calib_data_r63350_ebbg_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_r63350_ebbg_fhd_video_mode_dsi_panel.xml \
-    vendor/xiaomi/mido/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
-    vendor/xiaomi/mido/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/xiaomi/mido/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/xiaomi/mido/proprietary/vendor/firmware/a506_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.b00 \
     vendor/xiaomi/mido/proprietary/vendor/firmware/a506_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.b01 \
@@ -233,7 +227,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libChamomilePA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libChamomilePA.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libI420colorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib/libI420colorconvert.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblqe.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAacDec.so \
@@ -254,7 +247,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libStDrvInt.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/libacdbmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbmapper.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libactuator_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libactuator_dw9763_ofilm_imx258.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763_ofilm_imx258.so \
@@ -714,7 +706,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel_svc.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/libhwdaphal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwdaphal.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
@@ -925,7 +916,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
@@ -1012,7 +1002,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib64/lib_drplugin_server.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_drplugin_server.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdb-fts.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbloader.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib64/libacdbmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbmapper.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbrtac.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadiertac.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_utils.so \
@@ -1052,7 +1041,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofence.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib64/libhwdaphal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwdaphal.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_client_api.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_core.so \
