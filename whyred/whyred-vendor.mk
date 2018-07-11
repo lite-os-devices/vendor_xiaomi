@@ -1802,6 +1802,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/speccfg/switch_spec.sh:$(TARGET_COPY_OUT_VENDOR)/speccfg/switch_spec.sh
 
 PRODUCT_PACKAGES += \
+    vendor.qti.hardware.fm@1.0 \
     libantradio \
     libgpustats \
     libsdm-disp-vndapis \
